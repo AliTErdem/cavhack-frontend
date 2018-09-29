@@ -18,6 +18,21 @@ class App extends Component {
     return (
       <div>
         {/* ! ADD NAVBAR HERE */}
+        <Navbar>
+          <Navbar.Header>
+            <Navbar.Brand>
+              My Profile
+             </Navbar.Brand>
+          </Navbar.Header>
+          <Nav>
+            <NavItem href="/">
+              Home
+            </NavItem>
+            <NavItem href="/profiles">
+              All profiles
+            </NavItem>
+          </Nav>
+        </Navbar>
 
 
         {/* router to navigate between pages, each page is a container */}

@@ -1,10 +1,35 @@
+.description{
+  font-size: 25px;
+}
+.background{
+  background-color: #f1d168;
+}
+  .my-interests-list{
+  font-size: 20px;
+  color: black;
+  background-color: #f1d168;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #fafafa;
+  background-color: #cea10c;
+}
+.image {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 255px;
+  height: 300px;
+  margin:-150px 0 0 45px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
 }
 
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .padding--sm {
   padding: 0.5em;
 }
